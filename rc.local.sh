@@ -12,6 +12,9 @@
 #
 # By default this script does nothing.
 
+# --- Start Bandshell Daemon ---
+/usr/local/bin/bandshelld start
+
 # --- Configure Screen Resolution ---
 # Wait for the TV-screen to be turned on...
 while ! $( tvservice --dumpedid /tmp/edid | fgrep -qv 'Nothing written!' ); do
