@@ -18,7 +18,7 @@ cd /tmp
 git clone git://github.com/concerto/bandshell.git
 cd bandshell
 gem build bandshell.gemspec
-gem install *.gem –no-ri –no-rdoc
+gem install *.gem
 cd /
 rm -rf /tmp/bandshell
 
