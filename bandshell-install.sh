@@ -8,7 +8,7 @@ fi
 
 # Install packages we need (build-essential is temporary)
 apt-get -y install xserver-xorg xserver-xorg-video-all \
-	chromium unclutter ifplugd xinit blackbox \
+	chromium unclutter ifplugd xinit \
 	ruby1.9.1-full build-essential \
 	vim screen git-core openssh-server \
 	firmware-linux-nonfree
